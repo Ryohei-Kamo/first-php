@@ -14,4 +14,3 @@ echo $my_name;
 echo "\n";
 //文字数のチェック
 echo strlen($my_name);
-?>
