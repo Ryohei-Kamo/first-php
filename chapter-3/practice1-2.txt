@@ -1,0 +1,12 @@
+1.
+a:false
+b:true
+c:false
+d:true
+e:false
+f:false
+g:true
+h:false
+
+2.
+Msseage2. Age: 12. Shoe Size: 14
