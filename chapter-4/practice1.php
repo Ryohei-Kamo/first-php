@@ -14,5 +14,6 @@ $census = ['New York, NY' => 8175133,
 $total = 0;
 foreach ($census as $city => $population){
 	$total += $population;
-	echo $city . "/n"; $population . "/n";
+	echo "$city, $population\n"; 
 }
+echo 'total population is ' .  $total;
