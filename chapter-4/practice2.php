@@ -11,6 +11,10 @@ $census = ['New York, NY' => 8175133,
 	'Dallas, TX' => 1197816,
 	'San Jose, CA' => 945942,];
 
+//人口順
+
+asort($census);
+
 $total = 0;
 foreach ($census as $city => $population){
 	$total += $population;
