@@ -20,18 +20,18 @@ $stock = ['milk' => 4, 'coffee' => 6, 'orange' => 5, 'tea_pack' => 10];
 食事内容に関するキーと値のペアを持つ。*/
 
 $lunches = ['Monday' => ['cost' => 5.50,
-	'entree' => 'Seafood curry',
-	'side' => 'Green salad',
-	'drink' => 'Ice_cold Tea'],
-	'Tuesday' => ['cost' => 6.0,
-		'entree' => 'Hamburger',
-		'side' => 'French Fry',
-		'drink' => 'Diet Coke'],
-	'Wednesday' => ['cost' => 7.0,
-		'entree' => 'Ramen Ziro',
-		'side' => 'Garlic',
-		'drink' => 'Green Tea'],
-	'Thursday' => ['cost' => 4.35,
+	                   'entree' => 'Seafood curry',
+	                   'side' => 'Green salad',
+	                   'drink' => 'Ice_cold Tea'],
+	       'Tuesday' => ['cost' => 6.0,
+		                  'entree' => 'Hamburger',
+		                  'side' => 'French Fry',
+		                  'drink' => 'Diet Coke'],
+	       'Wednesday' => ['cost' => 7.0,
+		                  'entree' => 'Ramen Ziro',
+		                  'side' => 'Garlic',
+		                  'drink' => 'Green Tea'],
+	       'Thursday' => ['cost' => 4.35,
 		'entree' => 'Fried Chicken',
 		'side' => 'Green salad',
 		'drink' => 'Soda'],
@@ -49,9 +49,9 @@ $family = ['Gomez', 'Morticia', 'Fester', 'Grandmama', 'Wednesday', 'Pugsley'];
 //e.あなたの家族の名前、年齢、続柄
 //家族名がキーであり値が年齢と続柄である連想配列
 //この連想配列はそれぞれ年齢と続柄に関するキーと値のペアを持つ
-$family = ['Gomez' => ['age' => '40', 'relation' => 'father'],
-	'Morticia' => ['age' => '200', 'relation' => 'mother'],
-	'Fester' => ['age' => '45', 'relation' => 'uncle'],
-	'Grandmama' => ['age' => '400', 'relation' => 'grandmother'],
-	'Wednesday' => ['age' => '10', 'relation' => 'sister'],
-	'Pugsley' => ['age' => '8', 'relation' => 'brother']];
+$family = ['Gomez' => ['age' => 40, 'relation' => 'father'],
+	'Morticia' => ['age' => 200, 'relation' => 'mother'],
+	'Fester' => ['age' => 45, 'relation' => 'uncle'],
+	'Grandmama' => ['age' => 400, 'relation' => 'grandmother'],
+	'Wednesday' => ['age' => 10, 'relation' => 'sister'],
+	'Pugsley' => ['age' => 8, 'relation' => 'brother']];
