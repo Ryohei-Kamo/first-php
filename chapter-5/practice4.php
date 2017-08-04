@@ -16,5 +16,5 @@ $tip = 10;
 
 while (($cost = restaurant_check($meal, $tax, $tip)) < $cash_on_hand) {
 	$tip++;
-	print "I can afford a tip of $tip&($cost)\n";
+	echo "I can afford a tip of $tip&($cost)\n";
 }
