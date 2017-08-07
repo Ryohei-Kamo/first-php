@@ -16,3 +16,4 @@ function html_img($url, $alt = null, $height = null, $width = null)
 	return $html;
 }
 
+echo html_img('stylo.png', 'jacket', 640, 640);
